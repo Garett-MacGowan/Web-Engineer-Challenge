@@ -1,0 +1,68 @@
+h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: white;
+}
+li {
+  font-size: 1.05rem;
+  /* top right bottom left*/
+  margin: 0 0 0.5rem 0;
+}
+.row {
+  margin-bottom: 0.75rem;
+}
+.banner {
+  height: 7rem;
+  background: linear-gradient(to right, #1d5895,#22975d);
+}
+.container-fluid {
+  /* vertical horizontal*/
+  padding: 1rem 1rem;
+}
+.searchContainer {
+  height: 3.25rem;
+}
+.searchButton {
+  margin-left: 1rem;
+}
+.searchField {
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #aaaaaa;
+  border-style: solid;
+  padding-left: 0.5rem;
+  padding-top: 0;
+  padding-bottom: 0.1rem;
+  font-size: 1.3rem;
+}
+.resultsContainer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.btn {
+  padding: 10px;
+  border-radius: 2px;
+  border: 0;
+  background-color: #23995c;
+  /* offset-x offset-y blur-radius spread-radius color */
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.starIconContainer {
+  margin-right: 0.75rem;
+}
+.starIcon {
+  width: 1rem;
+  height: 1rem;
+  margin-bottom: 0.25rem;
+}
+.resultsTitle {
+  font-size: 1.15rem;
+}
+.favouritesContainer{
+
+}
+.favouritesText {
+  color: #23995c;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

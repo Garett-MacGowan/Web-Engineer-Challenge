@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <% include ../partials/shopifyHead %>
+</head>
+
+<body>
+  <main>
+    <div class="d-flex align-items-center justify-content-center banner">
+      <h2>Toronto Waste Lookup</h2>
+    </div>
+    <div class="container-fluid">
+      <div class="searchContainer">
+        <form action="/shopifyApp/search" method="GET" class="w-100 h-100 d-flex">
+          <div class="h-100 w-100">
+            <input type="text" name="item" class="searchField w-100 h-100" value = <% if (locals.data) { %> "<%- data.query %>" <% } %> >
+          </div>
+          <div class="flex-shrink h-100 searchButton">
+            <button class="btn h-100" type="submit">
+              <img class="h-100" src="/images/icons/search.png" alt="Search">
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="resultsContainer">
+        <% if (locals.data) { %>
+          <% data.results.forEach(element => { %>
+            <div class="row">
+              <div class="col-4">
+                <div class="d-flex">
+                  <div class="starIconContainer">
+                    <img src="/images/icons/grayStar.png" class="starIcon">
+                  </div>
+                  <div class="resultsTitle">
+                    <%- element.title %>
+                  </div>
+                </div>
+              </div>
+              <div class="col-8">
+                <%- element.body %>
+              </div>
+            </div>
+          <% }); %>
+        <% } %>
+      </div>
+      <div class="favouritesContainer">
+        <h3 class="favouritesText">Favourites</h3>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

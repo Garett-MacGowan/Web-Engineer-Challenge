@@ -1,0 +1,23 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "Garett MacGowan personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bitnami@35.182.165.35:/~/stack/apps/personal_website/site.git"
+  },
+  "author": "Garett MacGowan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "request": "^2.88.0",
+    "unescape": "^1.0.1"
+  }
+}
