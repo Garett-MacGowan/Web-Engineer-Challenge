@@ -8,6 +8,12 @@ Just in-case you look at my index.js and wonder why there are pages/timely and p
 
 You can navigate to my in-progress personal website through http://35.182.165.35. Here, you can find one of my personal projects (Timely) via the ‘Projects’ link in the header.
 
+===== Searching logic =====
+
+In the design, a result would be shown with the query "takeout" that would not be re-produceable without
+further processing. I have therefore removed all white-spaces when comparing query strings to keywords.
+This resulted in one extra result when compared to the design, however, my implementation now produces all results shown in the design.
+
 ===== Project Stack =====
 
 Javascript

@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  width: 100%;
 }
 main {
   display: flex;
@@ -21,6 +22,7 @@ li {
 .banner {
   height: 7rem;
   background: linear-gradient(to right, #1d5895,#22975d);
+  flex: none;
 }
 .container-fluid {
   padding: 1rem 1rem 0 1rem;
@@ -44,6 +46,7 @@ li {
 .resultsContainer {
   padding-top: 1rem;
   padding-left: 0.2rem;
+  flex: none;
 }
 .btn {
   padding: 10px;
@@ -65,8 +68,7 @@ li {
   font-size: 1.15rem;
 }
 .favouritesContainer {
-  padding-top: 1rem;
-  padding-left: 1rem;
+  padding: 1rem 1rem 0 1rem;
   background-color: #f7fefa;
   flex: 1;
 }
