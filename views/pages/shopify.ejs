@@ -5,8 +5,8 @@
   <% include ../partials/shopifyHead %>
 </head>
 
-<body>
-  <main>
+<body class="h-100">
+  <main class="h-100">
     <div class="d-flex align-items-center justify-content-center banner">
       <h2>Toronto Waste Lookup</h2>
     </div>
@@ -44,9 +44,10 @@
           <% }); %>
         <% } %>
       </div>
-      <div class="favouritesContainer">
-        <h3 class="favouritesText">Favourites</h3>
-      </div>
+    </div>
+    <div class="favouritesContainer">
+      <h3 class="favouritesText">Favourites</h3>
+      <div class="favouritesResultsContainer"></div>
     </div>
   </main>
 </body>

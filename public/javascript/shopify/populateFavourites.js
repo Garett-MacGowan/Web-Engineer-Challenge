@@ -1,7 +1,7 @@
 const populateFavourites = (favourites) => {
-  $('.favouritesContainer').find('.row').remove();
+  $('.favouritesResultsContainer').find('.row').remove();
   favourites['data'].forEach(favourite => {
-    $('.favouritesContainer').append(
+    $('.favouritesResultsContainer').append(
       $('<div/>', { class: "row" }).append(
         $('<div/>', { class: "col-4" }).append(
           $('<div/>', { class: "d-flex" }).append(

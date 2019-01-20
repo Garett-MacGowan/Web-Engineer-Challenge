@@ -1,3 +1,10 @@
+html {
+  height: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
 h2 {
   font-size: 2.25rem;
   font-weight: bold;
@@ -16,8 +23,7 @@ li {
   background: linear-gradient(to right, #1d5895,#22975d);
 }
 .container-fluid {
-  /* vertical horizontal*/
-  padding: 1rem 1rem;
+  padding: 1rem 1rem 0 1rem;
 }
 .searchContainer {
   height: 3.25rem;
@@ -37,7 +43,7 @@ li {
 }
 .resultsContainer {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-left: 0.2rem;
 }
 .btn {
   padding: 10px;
@@ -58,8 +64,14 @@ li {
 .resultsTitle {
   font-size: 1.15rem;
 }
-.favouritesContainer{
-
+.favouritesContainer {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  background-color: #f7fefa;
+  flex: 1;
+}
+.favouritesResultsContainer {
+  padding-left: 0.2rem;
 }
 .favouritesText {
   color: #23995c;
