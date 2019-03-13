@@ -6,7 +6,7 @@ I hope you are enjoying my implementation of the Shopify Web Engineer challenge 
 
 Just in-case you look at my index.js and wonder why there are pages/timely and pages/index files under the app.get() function calls, I have intentionally left them out. My implementation is hosted on my personal website and I have therefore left them out of this repository. The remainder of my website is on a private repository.
 
-You can navigate to my in-progress personal website through http://35.182.165.35. Here, you can find one of my personal projects (Timely) via the ‘Projects’ link in the header.
+You can find the hosted app at http://35.182.165.35/shopifyApp
 
 ===== Searching logic =====
 
